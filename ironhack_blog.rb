@@ -51,6 +51,6 @@ new_blog.add_post post4 = Post.new("post title 4", "post 4", "text 4", false)
 new_blog.add_post post5 = Post.new("post title 5", "post 5", "text 5", false)
 new_blog.add_post post6 = Post.new("post title 6", "post 6", "text 6", false)
 new_blog.add_post post7 = Post.new("post title 7", "post 7", "text 7", false)
-print new_blog.create_front_page
+puts new_blog.create_front_page
 
 
